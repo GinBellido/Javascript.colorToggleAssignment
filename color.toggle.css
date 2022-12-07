@@ -1,0 +1,52 @@
+.image-hamburger {
+    cursor: pointer;
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    width: 30%;
+    
+}
+
+.btn-toggle li{
+    
+    list-style: none;
+    font-size: 150%;
+    margin: 0.5%;
+    padding: 5%;
+    cursor: pointer;
+
+
+}
+
+.btn-toggle ul :nth-child(1){
+  background-color: rgb(216, 210, 210);
+}
+
+.btn-toggle ul :nth-child(2){
+    background-color: red;
+}
+
+.btn-toggle ul :nth-child(3){
+    background-color: orange;
+}
+
+.btn-toggle ul :nth-child(4){
+    background-color: purple;
+}
+
+.btn-toggle ul :nth-child(5){
+    background-color: green;
+}
+
+
+#color-list{
+    visibility:hidden;
+}
+
+
+
